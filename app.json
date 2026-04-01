@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "EKAM",
+    "slug": "ekam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "ekam",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#131317"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ekam.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#131317"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.ekam.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0a819cc5-a4d0-4a7d-a1cf-f48ee3e0483d"
+      }
+    },
+    "owner": "shoonya21"
+  }
+}
